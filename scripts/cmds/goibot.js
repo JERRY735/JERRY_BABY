@@ -180,7 +180,7 @@ config: {
      return api.sendMessage("️Good Night🌃, Take Care Babe🥺", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "alamin")) {
+  if ((event.body.toLowerCase() == "bot")) {
      return api.sendMessage("️But I am a Simple Messenger Chatbot, You Can Call Me TOM 卝 চৌধুরীヅ", threadID, messageID);
    };
 
@@ -205,7 +205,7 @@ config: {
    };
 
   if ((event.body.toLowerCase() == "alamin") || (event.body.toLowerCase() == "Alamin") || (event.body.toLowerCase() == "Alamin")) {
-     return api.sendMessage("️Amar boss re dako kn🥺", threadID, messageID);
+     return api.sendMessage("️Amar boss ke dako kn🥺", threadID, messageID);
    };
 
     if ((event.body.toLowerCase() == "😋") || (event.body.toLowerCase() == "😋😋")) {
