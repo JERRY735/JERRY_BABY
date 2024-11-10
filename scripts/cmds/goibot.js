@@ -153,7 +153,7 @@ config: {
    };
 
     if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "chup thak")) {
-     return api.sendMessage("️Amr Mukh, Amr iccha, Amr Mon. Tor ki bal,,,shala abal...ja vaag... 😒🙄", threadID, messageID);
+     return api.sendMessage("️Amr boss Alamin ke bole dibo tumi domok diso 😒", threadID, messageID);
    };
 
     if ((event.body.toLowerCase() == "💃") || (event.body.toLowerCase() == "💃💃")) {
@@ -185,7 +185,7 @@ config: {
    };
 
   if ((event.body.toLowerCase() == "name") || (event.body.toLowerCase() == "Name") || (event.body.toLowerCase() == "Name")) {
-     return api.sendMessage("️bby, My name is Alamin Bot 🍁", threadID, messageID);
+     return api.sendMessage("️my name is >>Tom bby<< & my boss Alamin 🐤", threadID, messageID);
    };
 
    if ((event.body.toLowerCase() == "bebe") || (event.body.toLowerCase() == "bebi")) {
