@@ -28,7 +28,7 @@ config: {
 
     var rand = Messages[Math.floor(Math.random() * Messages.length)]
 
-        if ((event.body.toLowerCase() == "minii") || (event.body.toLowerCase() == "Mini")) {
+        if ((event.body.toLowerCase() == "bot") || (event.body.toLowerCase() == "Bot")) {
          return api.sendMessage("Hmm bby bolo🥹🫶🏻", threadID);
        };
 
@@ -153,7 +153,7 @@ config: {
    };
 
     if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "chup thak")) {
-     return api.sendMessage("️Amr Mukh, Amr iccha, Amr Mon. Tor ki bal,,,shala abal...ja vaag... 😒🙄", threadID, messageID);
+     return api.sendMessage("️Amr boss Alamin ke bole dibo tumi domok diso 😒", threadID, messageID);
    };
 
     if ((event.body.toLowerCase() == "💃") || (event.body.toLowerCase() == "💃💃")) {
@@ -172,20 +172,20 @@ config: {
      return api.sendMessage("️তুমাকে তোমার বউ পেটায় নাকি, যে Oh Oh করো?!", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "good morning") || (event.body.toLowerCase() == "gm") || (event.body.toLowerCase() == "good morning")) {
+  if ((event.body.toLowerCase() == "good morning") || (event.body.toLowerCase() == "Good Morning") || (event.body.toLowerCase() == "good morning")) {
      return api.sendMessage("️Good Morningg!🌄", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "good night") || (event.body.toLowerCase() == "gn") || (event.body.toLowerCase() == "good night")) {
+  if ((event.body.toLowerCase() == "good night") || (event.body.toLowerCase() == "Good Night") || (event.body.toLowerCase() == "good night")) {
      return api.sendMessage("️Good Night🌃, Take Care Babe🥺", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "bro")) {
-     return api.sendMessage("️But I am a Simple Messenger Chatbot, You Can Call Me Mimi", threadID, messageID);
+  if ((event.body.toLowerCase() == "bot")) {
+     return api.sendMessage("️But I am a Simple Messenger Chatbot, You Can Call Me TOM 卝 চৌধুরীヅ", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "boy")) {
-     return api.sendMessage("️bbe, I am a messenger chatbot call me mimi😚", threadID, messageID);
+  if ((event.body.toLowerCase() == "name") || (event.body.toLowerCase() == "Name") || (event.body.toLowerCase() == "Name")) {
+     return api.sendMessage("️my name is >>Tom bby<< & my boss Alamin 🐤", threadID, messageID);
    };
 
    if ((event.body.toLowerCase() == "bebe") || (event.body.toLowerCase() == "bebi")) {
@@ -204,8 +204,8 @@ config: {
      return api.sendMessage("️Sorry, We Are Peace Lover ✌🏻🕊", threadID, messageID);
    };
 
-  if ((event.body.toLowerCase() == "tom") || (event.body.toLowerCase() == "Tom") || (event.body.toLowerCase() == "Alamin")) {
-     return api.sendMessage("️Amar boss re dako kn🥺", threadID, messageID);
+  if ((event.body.toLowerCase() == "alamin") || (event.body.toLowerCase() == "Alamin") || (event.body.toLowerCase() == "Alamin")) {
+     return api.sendMessage("️Amar boss ke dako kn🥺", threadID, messageID);
    };
 
     if ((event.body.toLowerCase() == "😋") || (event.body.toLowerCase() == "😋😋")) {
@@ -213,7 +213,7 @@ config: {
    };
 
   if ((event.body.toLowerCase() == "who are you") || (event.body.toLowerCase() == "who r u")) {
-     return api.sendMessage("️I Am mimi, An AI Based Messenger Chatbot.", threadID, messageID);
+     return api.sendMessage("️I Am Alamin Bot, An AI Based Messenger Chatbot.", threadID, messageID);
    };
 
   if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
